@@ -1,5 +1,5 @@
 export class Point {
-    constructor(x, y) {
+    constructor(index, x, y) {
         this.x = x;
         this.y = y;
         this.fixedY = y;
@@ -9,7 +9,7 @@ export class Point {
     }
 
     update() {
-        this.cur = this.speed;
+        this.cur += this.speed;
         this.y = this.fixedY + (Math.sin(this.cur) * this.max);
     }
 }

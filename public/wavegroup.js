@@ -9,7 +9,7 @@ export class WaveGroup {
 
         this.waves = [];
 
-        for (let i = 0; i < this.totalPointsWaves; i++) {
+        for (let i = 0; i < this.totalWaves; i++) {
             const wave = new Wave(
                 i,
                 this.totalPoints,
