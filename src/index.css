@@ -29,15 +29,15 @@
     background-color: transparent !important;
     background-image: none !important;
     position: fixed;
-    bottom: 150px;
-    left: 100px;
+    bottom: 15%;
+    left: 5%;
     border: none;
     width:200px;
     height:100px;
     font-size: 50px;
     color:white;
     font-family: 'Noto Sans KR', sans-serif;
-    font-weight:900;
+    font-weight:700;
     font-style: normal;
     text-shadow: 3.536px 3.536px 20px rgba(92, 82, 212, 0.15),
     2.828px 2.828px 5px rgba(43, 39, 89, 0.07),
@@ -45,19 +45,19 @@
   }
   
   #btn-svg {
+    padding-right: 25px;
     width: 45px;
     height: 45px;
     fill: white;
     background-size: 100% 100%;
-    float:left;
-    stroke:#ffffff;
   }
 
   #mdti {
-    padding-top: 7vw;
-    width: 40%;
+    position: absolute;
+    left:10%;
+    top:20%;
+    line-height:70%;
     font-size:80px;
-    text-align:center;
     color:#7673ff;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight:900;
@@ -69,8 +69,9 @@
 
   #A1 {
     font-size: 20px;
-    text-align:center;
   }
+
+  
 
   .st0 {
     fill:none;
