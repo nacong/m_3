@@ -4,8 +4,17 @@
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <title>wave</title>
+
+    <style>
+      canvas {
+        position: fixed;
+        top: 0;
+      }
+    </style>
   </head>
   <body>
+    <script id="canvas" type="module" src="%PUBLIC_URL%/app.js"></script>
+
     <div id="mdti">MDTI<div id="A1">나만의 디자인 스타일 알아보기</div></div>
     <button id="start-btn" onclick="alert('Hello World!')">시작하기
       <svg version="1.1" id="btn-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 107.1 107.1" style="enable-background:new 0 0 107.1 107.1;" xml:space="preserve">
@@ -13,7 +22,7 @@
       <line class="st0" x1="0" y1="53.5" x2="99.8" y2="53.5"/>
       </svg>  
     <button/>
-    <script type="module" src="%PUBLIC_URL%/app.js"></script>
+    
     <div id="root"></div>
   </body>
 </html>
